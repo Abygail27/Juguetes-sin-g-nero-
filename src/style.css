@@ -6,13 +6,9 @@ a.brand-logo{
 font-size: 17px;
 }
 
-
-#dropdown1{
-    width: 50%;
-    left: 0px;
-    top: 11.5px;
-    height: 400px;
-    transform-origin: 0px 0px;
-    opacity: 1;
-    transform: scaleX(1) scaleY(1);
+.row{
+    display: inline-block;
+    background-color: red;
 }
+
+
