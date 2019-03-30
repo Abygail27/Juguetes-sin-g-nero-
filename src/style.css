@@ -1,11 +1,11 @@
 .nav-wrapper{
-background-color: purple;
-font-size: 23%;
-}
-a.brand-logo{
-font-size: 17px;
+    background-color: purple;
+    font-size: 23%;
 }
 
+a.brand-logo{
+    font-size: 17px;
+}
 
 #dropdown1{
     width: 50%;
@@ -15,4 +15,8 @@ font-size: 17px;
     transform-origin: 0px 0px;
     opacity: 1;
     transform: scaleX(1) scaleY(1);
+}
+
+.card-image {
+    height: 120px;
 }
