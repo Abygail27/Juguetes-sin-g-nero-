@@ -1,7 +1,17 @@
-let addCarProducts = document.getElementById('add-car').addEventListener('click', addCar);
+let addCarProducts = document.getElementsByClassName('add-car')
+
+for (let i = 0; i < addCarProducts.length; i++) {
+  const element = addCarProducts[i];
+  element.addEventListener('click', addCar);
+}
 
 function addCar() {
   let count = document.getElementById('count');
   count.innerHTML++;
-  document.getElementById('add-car').innerHTML = "Quitar del carrito";
+  for (let i = 0; i < addCarProducts.length; i++) {
+    const element = addCarProducts[i];
+    element.innerHTML = "Eliminar del carrito";
+  }
+    
 }
+
