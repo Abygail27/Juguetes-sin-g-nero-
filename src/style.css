@@ -1,5 +1,5 @@
 .nav-wrapper{
-    background-color: purple;
+    background-color: #9e34ef;
     font-size: 23%;
 }
 
@@ -19,4 +19,8 @@ a.brand-logo{
 
 .card-image {
     height: 120px;
+}
+
+#add-car {
+    cursor: pointer;
 }
