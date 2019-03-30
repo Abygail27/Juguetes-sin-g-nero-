@@ -16,3 +16,7 @@ font-size: 17px;
     opacity: 1;
     transform: scaleX(1) scaleY(1);
 }
+
+#add-car {
+    cursor: pointer;
+}
